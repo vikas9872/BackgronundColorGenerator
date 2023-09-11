@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainpart{
+    height: 200px;
+    width: 300px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff
+}
+.upperpart{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.toastmessage{
+    width: 90%;
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.toastmessageleftpart{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toastmessagerightpart{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-close{
+    font-weight: bolder;
+    font-size: x-small;
+}
+.lowerpart{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lleftpart{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.lrightpart{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.textclass{
+    height: 50px;
+    width: 90%;
+    background-color: #ffff;
+    border: none;
+    border-bottom:2px solid black;
+    outline: none;
+    font-size: larger;
+}
+.generateclass, .copyclass{
+    height: 50px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ffff;
+    font-weight: bolder;
+}
